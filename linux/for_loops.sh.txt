@@ -1,0 +1,19 @@
+
+#!/bin/bash 
+
+#states
+
+
+list=( 'tennessee''hawaii''california''colorado''new york')
+        for states in ${list[@]}
+do
+        if [ $states !== 'hawaii' ];
+then
+
+echo 'I am not fond of hawaii'
+else
+echo 'hawaii is the best'
+
+fi
+
+done

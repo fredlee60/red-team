@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+#list open files /backups/openlist/open_list.txt
+ls -lh /var/backups > /var/backups/openlist/open_list.txt
+#prints disk usage /backups/diskuse/disk_usage.txt
+du -h /var/backups < /backups/diskuse/disk_usage.txt
+#print free memory put into /backups/freemem/free_mem.txt
+free -h > var/backups/freemem/free_mem.txt
+#prints file system disk space /backups/freedisk/free_disk.txt
+df -k < /var/backups/freedisk/free_disk.txt

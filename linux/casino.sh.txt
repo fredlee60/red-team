@@ -1,0 +1,9 @@
+#!/bin/bash
+#Hour
+#AM/PM
+#NAME
+#LAST
+
+echo "hello world!..."
+
+#END
